@@ -89,7 +89,7 @@ let carolinaPanthers = {
   
   let wins = 0;
   let losses = 0;
-  for (i = 0; i <= 5; i++) {
+  for (i = 0; i < carolinaPanther_games.length; i++) {
       let panthersScore = carolinaPanthers._games[i].teamPoints;
       let opponentScore = carolinaPanthers._games[i].opponentPoints;
   
